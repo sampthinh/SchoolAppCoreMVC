@@ -13,7 +13,7 @@ namespace SchoolAppCoreMVC.Controllers
     {
         private readonly SchoolContext _context;
 
-        public InstructorsController(SchoolContext context)
+        public InstructorsController(SchoolContext context) //
         {
             _context = context;
         }
